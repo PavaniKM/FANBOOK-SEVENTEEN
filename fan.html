@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Moirai+One&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <style>
+        .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .text-on-image {
+        font-family: "Moirai One", system-ui;
+      color: #070000; 
+      font-weight: 500;
+      font-style: italic bold;
+    }
+    </style>
+  <title>Sparta Coding Club | Bootstrap Practice</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light shadow-lg p-3">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 ">
+        <div class="container">
+    <div class="position-relative">
+      <img src="https://media.pitchfork.com/photos/62617da9e624a244cf040f25/2:1/w_2560%2Cc_limit/Seventeen.jpg" class="img-fluid" alt="Your Image">
+      <div class="overlay">
+        <h1 class="text-on-image">Seventeen right here<br>Say the name!</h1>
+      </div>
+    </div>
+  </div>
+      </span>
+    </div>
+  </nav>
+  <div style="height: 10px;"></div>
+  <div class="card shadow-lg p-3" style="width: 19rem;margin-left: 600px;margin-right: 600px;">
+    <div class="card-body">
+      <p class="card-text">
+        <div style="height: fit-content;width: 250px;">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">NICKNAME</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Say hello">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"> Fan Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <button type="button" class="btn btn-secondary btn-lg" style="margin-top: 5px;">Leave a fan message</button>
+              </div>
+            </div>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
